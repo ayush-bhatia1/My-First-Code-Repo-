@@ -1,0 +1,78 @@
+.page-wrap {
+  max-width: 1100px;
+  margin: 32px auto;
+  padding: 0 16px;
+}
+
+/* Header */
+.header h1 {
+  margin: 0 0 4px 0;
+}
+.sub {
+  color: #555;
+  margin: 0 0 16px 0;
+}
+
+/* Filter controls */
+.controls {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.input,
+.select {
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Table */
+.table-wrap {
+  overflow: auto;
+  border: 1px solid #eee;
+  border-radius: 10px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.table th,
+.table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #f1f1f1;
+  text-align: left;
+}
+.table thead th {
+  position: sticky;
+  top: 0;
+  background: #fafafa;
+  z-index: 1;
+}
+
+/* Empty state & errors */
+.empty {
+  text-align: center;
+  color: #777;
+}
+.error {
+  color: #b00020;
+}
+
+/* Navbar styling */
+nav {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+nav a {
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+nav a.active {
+  background: #efefef;
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2025-11-03-001",
+    "ticker": "NVDA",
+    "type": "BUY",
+    "size_usd": 25000,
+    "member": "Rep. Jane Doe (CA)",
+    "disclosure_date": "2025-11-03T21:05:00Z",
+    "transaction_date": "2025-10-30",
+    "source": "house",
+    "link": "https://clerk.house.gov/FinancialDisclosure"
+  },
+  {
+    "id": "2025-11-03-002",
+    "ticker": "MSFT",
+    "type": "SELL",
+    "size_usd": 12000,
+    "member": "Sen. John Roe (NY)",
+    "disclosure_date": "2025-11-03T21:10:00Z",
+    "transaction_date": "2025-10-29",
+    "source": "senate",
+    "link": "https://efdsearch.senate.gov/"
+  }
+]
